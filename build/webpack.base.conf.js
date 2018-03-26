@@ -32,13 +32,13 @@ module.exports = {
       : config.dev.assetsPublicPath
   },
   resolve: {
-    extensions: ['.js', '.vue', '.json'],
+    extensions: ['.js', '.vue', '.json'], // 自动补全文件后缀
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
     }
   },
-  module: {
+  module: { // 各种文件编译
     rules: [
       ...(config.dev.useEslint ? [createLintingRule()] : []),
       {

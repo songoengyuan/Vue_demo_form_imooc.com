@@ -1,5 +1,6 @@
 # sell
-
+> 仅供学习交流使用,来源imooc.com https://www.imooc.com/search/?words=vue
+> For learning exchange only, source imooc.com https://www.imooc.com/search/?words=vue
 > sell app
 
 ## Build Setup
